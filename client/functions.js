@@ -29,7 +29,7 @@ $(function() {
                 '<div id="shape" class="circle" style="height:' + circleDiameter + 'px; width:' + circleDiameter + 'px;"></div>'+
                 '</div>'+
                 '<button id="areaButton">Get area</button>'+
-                '<button id="toStringButton">show radius and area</button>'+
+                '<button id="toStringButton">Show Radius and Area</button>'+
                 '<div id="areaField" class="areaCircle"></div></div>');
             $('#squareSlider').append(
                 '<div class="squareContainer">'+
