@@ -62,14 +62,14 @@ $(function() {
             var radius = height/2;
             var area = 3.14 * Math.pow(radius, 2);
             area = Math.ceil(area);
-            $('.areaCircle').append("<p>"+area+"</p>");
+            $('.areaCircle').append("<p>"+area+"px</p>");
         }
 
         if(shapeClass == "square"){
             $('.areaSquare p').empty();
             var area = Math.pow(height, 2);
             area = Math.ceil(area);
-            $('.areaSquare').append("<p>"+area+"</p>");
+            $('.areaSquare').append("<p>"+area+"px</p>");
         }
     }
 
@@ -79,7 +79,7 @@ $(function() {
             var radius = height/2;
             var area = 3.14 * Math.pow(radius, 2);
             area = Math.ceil(area);
-            $('.areaCircle').append("<p>Circle: Radius = "+ radius +", Area = "+ area +"</p>")
+            $('.areaCircle').append("<p>Circle: Radius = "+ radius +"px, Area = "+ area +"px</p>")
         }
 
         if(shapeClass == "square"){
@@ -87,7 +87,7 @@ $(function() {
             var side = height;
             var area = Math.pow(side, 2);
             area = Math.ceil(area);
-            $('.areaSquare').append("<p>Square: Size = "+ side +", Area = "+ area +"</p>");
+            $('.areaSquare').append("<p>Square: Size = "+ side +"px, Area = "+ area +"px</p>");
         }
     }
 
