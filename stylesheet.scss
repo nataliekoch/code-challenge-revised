@@ -1,0 +1,94 @@
+$light-gray: #D3D3D3;
+$gray: #A8A8A8;
+$dark-gray: #5D5D5D;
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+button {
+    background-color: white;
+    color: $dark-gray;
+    border: solid 2px $gray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.slider{
+    min-height: 220px;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    border: solid 2px $light-gray;
+    border-radius: 10px;
+    margin-top: 13%;
+    padding: 40px 0;
+}
+
+#circleSlider {
+    float: left;
+    margin-left: 20px;
+}
+
+#squareSlider {
+    float: right;
+    margin-right: 20px;
+}
+
+.circleContainer, .squareContainer {
+    margin-top: 5%;
+    display: inline-block;
+    display: none;
+}
+
+#shape {
+    display: block;
+    margin: auto;
+}
+
+.square {
+    background-color: #CC0000;
+}
+
+.circle {
+    background-color: #3832D6;
+    border-radius: 100px;
+}
+
+.fa{
+    font-size: 50px;
+    line-height: 300px;
+    color: $gray;
+}
+
+#next {
+    @extend .fa;
+    float: right;
+    margin-right: 10px;
+}
+
+#prev {
+    @extend .fa;
+    float: left;
+    margin-left: 10px;
+}
+
+#areaField {
+    min-height: 40px;
+    border: solid 2px $light-gray
+}
+
+#header {
+    font-size: 25px;
+    color: $dark-gray;
+    margin-top: 0;
+}
+
+.shapeWrapper {
+    height: 100px;
+    margin-bottom: 20px;
+}
