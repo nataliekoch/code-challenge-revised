@@ -38,7 +38,7 @@ $(function() {
                 '<div id="shape" class="square" style="height:' + squareSide + 'px; width:' + squareSide + 'px;"></div>'+
                 '</div>'+
                 '<button id="areaButton">Get area</button>'+
-                '<button id="toStringButton">show size and area</button>'+
+                '<button id="toStringButton">Show Size and Area</button>'+
                 '<div id="areaField" class="areaSquare"></div></div>');
         }
     }
